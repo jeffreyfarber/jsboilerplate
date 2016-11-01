@@ -5,7 +5,7 @@ var router = express.Router();
 router.get('/', function(req, res, next) {
   res.render('index', {
     title: 'Express',
-    bodytext: 'Hello Full-Stack Class, you\'ve successfully loaded your first webpage!'
+    bodytext: 'NODEMON Hello Full-Stack Class, you\'ve successfully loaded your first webpage, oh yeah!'
   });
 });
 
